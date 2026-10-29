@@ -791,3 +791,27 @@ body::before {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
+
+/* Link gambar project */
+.card-img-link {
+  display: block;
+  margin-bottom: 16px;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: zoom-in;
+}
+
+.card-img-link .card-img {
+  margin-bottom: 0;
+  transition: transform 0.4s ease;
+}
+
+.card-img-link:hover .card-img {
+  transform: scale(1.06);
+}
+
+.card .btn-small {
+  margin-top: 14px;
+  padding: 8px 22px;
+  font-size: 0.9rem;
+}
